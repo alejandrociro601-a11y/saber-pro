@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prueba tipo Saber Pro – Inglés (45 preguntas)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap">
+<style>
+:root{box-sizing:border-box;--bg:#eef2f8;--card:#fff;--tx:#1f2937;--mu:#64748b;--ac:#3b5bdb;--ok:#1b7f3b;--okb:#e3f5e8;--ko:#b3261e;--kob:#fde8e6;--bd:#d9dee6;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161c;--card:#1b212a;--tx:#e8ecf2;--mu:#9aa5b5;--ac:#6aa5ff;--ok:#6fd48c;--okb:#173323;--ko:#ff8a80;--kob:#3a1c1a;--bd:#2d3644}}
+:root[data-theme="dark"]{--bg:#12161c;--card:#1b212a;--tx:#e8ecf2;--mu:#9aa5b5;--ac:#6aa5ff;--ok:#6fd48c;--okb:#173323;--ko:#ff8a80;--kob:#3a1c1a;--bd:#2d3644}
+html{height:100%;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:780px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem;margin:.2em 0}h2{font-size:1.15rem;margin:0 0 .2em}h4{margin:.6em 0 .2em}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin:14px 0}
+.mu{color:var(--mu);font-size:.9rem}
+#bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--bd);display:none;justify-content:space-between;align-items:center;padding:8px 16px;gap:12px}
+#bar b{font-variant-numeric:tabular-nums;font-size:1.2rem}
+.prog{flex:1;height:8px;background:var(--bd);border-radius:4px;overflow:hidden}.prog i{display:block;height:100%;width:0;background:var(--ac)}
+button,input[type=text]{font:inherit}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer}
+:root:not([data-theme]) .btn{color:#fff}
+input[type=text]{padding:9px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);width:min(100%,320px)}
+.q{border-top:1px solid var(--bd);padding:12px 0}.q p{margin:0 0 6px;font-weight:600}
+.o{display:block;padding:6px 10px;margin:3px 0;border:1px solid var(--bd);border-radius:8px;cursor:pointer}
+.o input{margin-right:8px}
+.o.ok{background:var(--okb);border-color:var(--ok)}.o.ko{background:var(--kob);border-color:var(--ko)}
+.txt{background:var(--bg);border-left:4px solid var(--ac);padding:4px 14px;border-radius:6px;margin:10px 0}
+.score{font-size:2.4rem;font-weight:700;color:var(--ac)}
+table{border-collapse:collapse;width:100%}td,th{border:1px solid var(--bd);padding:4px 8px;text-align:left}
+.wide{overflow-x:auto}.ill{text-align:center;margin:8px 0}.ill svg{max-width:100%;height:auto;border-radius:10px}.sg{background:#fff3bf;color:#1f2937;border:3px solid #495057;border-radius:8px;padding:10px 14px;text-align:center;font-weight:600;margin:6px 0}.bb{background:#e7f5ff;color:#1f2937;border-radius:14px 14px 14px 4px;padding:6px 12px;margin:4px 0;max-width:85%}.bb.r{background:#d3f9d8;margin-left:auto;border-radius:14px 14px 4px 14px}.g{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.g button{width:38px;height:38px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);cursor:pointer;font:inherit}.g button.an{background:rgba(59,91,219,.18);border-color:var(--ac)}.g button.cu{outline:2px solid var(--ac);font-weight:700}.btn[disabled]{opacity:.5}.card{box-shadow:0 1px 3px rgba(15,23,42,.07)}.hero{background:linear-gradient(135deg,#3b5bdb,#0ca678);color:#fff;border-radius:12px;padding:18px 20px;margin:0 0 14px}.hero h1{margin:0;font-size:1.5rem}.hero p{margin:4px 0 0;opacity:.92}.o:hover{border-color:var(--ac)}.o:has(input:checked){border-color:var(--ac);background:rgba(59,91,219,.08)}input[type=password]{padding:9px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);width:min(100%,320px);font:inherit}tr.rw{cursor:pointer}tr.rw:hover{background:var(--bg)}textarea{background:var(--bg);color:var(--tx);border:1px solid var(--bd);border-radius:8px;font:inherit;padding:8px}
+:root{--bg:#f2f4fa;--card:#fff;--tx:#16193a;--mu:#5d6385;--ac:#2b3fb8;--ac2:#ffc83d;--on:#fff;--ok:#17803d;--okb:#e2f6e9;--ko:#c0322b;--kob:#fdeceb;--bd:#d8dcec;--fd:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1230;--card:#171d45;--tx:#eceefb;--mu:#a1a7cf;--ac:#8ea0ff;--on:#0e1230;--ok:#6fd48c;--okb:#14321f;--ko:#ff8f86;--kob:#3b1c24;--bd:#2b3466}}
+:root[data-theme="dark"]{--bg:#0e1230;--card:#171d45;--tx:#eceefb;--mu:#a1a7cf;--ac:#8ea0ff;--on:#0e1230;--ok:#6fd48c;--okb:#14321f;--ko:#ff8f86;--kob:#3b1c24;--bd:#2b3466}
+body{font-family:Figtree,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h4,.score,#clock{font-family:var(--fd)}
+main{padding:14px 14px 48px}
+.card{border-radius:18px;box-shadow:none;padding:20px}
+.hero{position:relative;overflow:hidden;background:var(--ac);color:var(--on);border-radius:18px;padding:28px 22px 74px;margin:0 0 18px}
+.hero h1{font-size:clamp(1.9rem,7vw,2.8rem);line-height:1.02;font-weight:800;letter-spacing:-.02em;max-width:14em}
+.hero p{margin:12px 0 0;opacity:.9;max-width:34em}
+.hero::after{content:"";position:absolute;left:22px;bottom:22px;width:230px;height:38px;background:radial-gradient(circle at 19px 19px,var(--ac2) 0 12px,transparent 13px) 114px 0/1px 1px no-repeat,radial-gradient(circle,transparent 0 11px,currentColor 12px 14px,transparent 15px) 0 0/46px 38px repeat-x;opacity:1}
+
+#it table{margin:4px 0 8px}
+td,th{border:0;border-bottom:1px solid var(--bd);padding:9px 10px}
+th{font-size:.85rem;color:var(--mu);font-weight:600}
+input[type=text],input[type=password]{border:2px solid var(--bd);border-radius:12px;padding:11px 14px}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{outline:3px solid var(--ac2);border-color:var(--ac)}
+.btn{background:var(--ac);color:var(--on);border-radius:999px;padding:11px 22px;font-weight:700;transition:transform .12s}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,.g button:focus-visible{outline:3px solid var(--ac2);outline-offset:2px}
+#go{background:var(--ac2);color:#16193a;font-size:1.05rem;padding:13px 28px}
+#tbtn{background:transparent;color:var(--tx);border:2px solid var(--bd)}
+#bar{background:var(--card);border-bottom:2px solid var(--ac);padding:10px 16px}
+#clock{font-size:1.35rem;font-weight:800;letter-spacing:.01em}
+.prog{height:10px;border-radius:999px}.prog i{background:var(--ac);border-radius:999px;transition:width .25s}
+.qs .ph h2{font-size:1.5rem;font-weight:800;letter-spacing:-.01em}
+.txt{background:color-mix(in srgb,var(--ac2) 14%,var(--card));border-left:5px solid var(--ac2);border-radius:4px 14px 14px 4px;padding:8px 16px;line-height:1.7}
+.q{border-top:0;padding-top:6px}.q>p{font-size:1.12rem;line-height:1.4;margin-bottom:12px}
+.o{display:flex;align-items:center;gap:14px;position:relative;padding:11px 14px;margin:8px 0;border:2px solid var(--bd);border-radius:16px;background:var(--card)}
+.o input{position:absolute;opacity:0;pointer-events:none}
+.o::before{content:attr(data-k);flex:none;width:32px;height:32px;border-radius:50%;border:2px solid var(--mu);display:grid;place-items:center;font:800 .9rem var(--fd);color:var(--mu)}
+.o:hover{border-color:var(--ac)}
+.o:has(input:checked){border-color:var(--ac);background:color-mix(in srgb,var(--ac) 10%,var(--card))}
+.o:has(input:checked)::before{background:var(--ac);border-color:var(--ac);color:var(--on)}
+.o:has(input:focus-visible){outline:3px solid var(--ac2);outline-offset:2px}
+.qs .o.ok{border-color:var(--ok);background:var(--okb)}.qs .o.ok::before{background:var(--ok);border-color:var(--ok);color:var(--card)}
+.qs .o.ko{border-color:var(--ko);background:var(--kob)}.qs .o.ko::before{background:var(--ko);border-color:var(--ko);color:var(--card)}
+.g{gap:8px}.g button{width:42px;height:42px;border-radius:50%;border:2px solid var(--bd);font-weight:700;font-family:var(--fd)}
+.g button.an{background:var(--ac);border-color:var(--ac);color:var(--on)}
+.g button.cu{outline:3px solid var(--ac2);outline-offset:2px}
+#res{border-top:8px solid var(--ac2)}
+.score{font-size:clamp(3rem,14vw,5rem);font-weight:800;line-height:1;margin:6px 0;letter-spacing:-.02em}
+.cr{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 18px;margin:28px 0 8px;padding-top:18px;border-top:2px solid var(--bd);text-align:center}.cr b{font-family:var(--fd);font-size:1.05rem;font-weight:800}
+@media (max-width:480px){.hero{padding:24px 18px 70px}.card{padding:16px}}
+@media (prefers-reduced-motion:reduce){.btn,.prog i{transition:none}}
+.pa{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0 8px}
+.pa button{border:2px solid var(--bd);background:var(--card);color:var(--tx);border-radius:10px;padding:9px 14px;cursor:pointer;font-weight:600}
+.pa button[data-a=dp]{color:var(--ko)}
+.qr{display:flex;align-items:center;gap:18px;padding:12px 0;border-top:1px solid var(--bd)}
+.qa{display:flex;gap:10px;flex:none}
+.qa button{width:42px;height:42px;display:grid;place-items:center;padding:0;border:2px solid var(--bd);background:var(--card);color:var(--tx);border-radius:10px;font-size:1.1rem;cursor:pointer}
+.qa button[data-a=dq]{color:var(--ko)}
+.qa button:hover,.pa button:hover{border-color:var(--ac)}
+.qt{flex:1;min-width:0;line-height:1.45}
+@media (max-width:480px){.qr{flex-direction:column;align-items:flex-start;gap:8px}}
+.hero.pn{padding:22px 22px 24px}.hero.pn::after{display:none}.hero.pn p{margin:10px 0 0;max-width:none}#pnote:empty{display:none}
+.sl{display:grid;gap:12px;margin:6px 0 10px}
+.sr{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;border:2px solid var(--bd);border-radius:16px;background:var(--card)}
+.sr.rw{cursor:pointer}.sr.rw:hover{border-color:var(--ac)}
+.sr .sn{flex:1 1 170px;min-width:0;font-weight:700;line-height:1.3}.sr .sn small{display:block;font-weight:600;color:var(--mu);font-size:.8rem}
+.sr .sc{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.cd{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:800;font-size:1.05rem;letter-spacing:.14em;background:color-mix(in srgb,var(--ac) 16%,var(--card));border-radius:10px;padding:8px 12px}
+.cb{border:2px solid var(--ac);background:var(--card);color:var(--tx);border-radius:10px;padding:8px 14px;font-weight:700;cursor:pointer}
+.cb.ok{border-color:var(--ok);color:var(--ok)}
+.xb{width:42px;height:42px;display:grid;place-items:center;padding:0;border:2px solid var(--bd);border-radius:10px;background:var(--card);color:var(--ko);font-size:1.1rem;cursor:pointer}
+.sr .sm{flex:1 1 100%;color:var(--mu);font-size:.92rem}.sr .sm b{color:var(--tx)}
+.emp{color:var(--mu);padding:8px 2px}
+</style>
+</head>
+<body>
+<div id="bar"><span>⏱ <b id="clock">60:00</b></span><div class="prog"><i id="pg"></i></div><span class="mu" id="cnt">0/45</span></div>
+<main>
+<section class="card" id="intro">
+<div class="hero"><h1>Prueba tipo Saber Pro – Inglés</h1><p>Modelo basado en el Marco de Referencia del Icfes · Unidades 7 a 12 de Touchstone</p></div>
+<div class="wide" id="it"></div><div style="display:none"><table><tr><th>Parte</th><th>Competencia</th><th>Preguntas</th></tr>
+<tr><td>1</td><td>Lexical</td><td>1–5</td></tr><tr><td>2</td><td>Pragmática</td><td>6–10</td></tr>
+<tr><td>3</td><td>Comunicativa</td><td>11–15</td></tr><tr><td>4</td><td>Gramatical (texto con 8 espacios)</td><td>16–23</td></tr>
+<tr><td>5</td><td>Lectora literal</td><td>24–30</td></tr><tr><td>6</td><td>Lectora inferencial</td><td>31–35</td></tr>
+<tr><td>7</td><td>Gramatical y lexical (texto con 10 espacios)</td><td>36–45</td></tr></table></div>
+<p><b><span id="nq">45</span> preguntas · 1 hora.</b> Una sola respuesta correcta por pregunta. Al terminar (o cuando se acabe el tiempo) verás tu resultado y la nota de 1,0 a 5,0.</p>
+<p><input type="text" id="nm" placeholder="Nombre completo"></p><p><input type="text" id="cd" placeholder="Código del estudiante (te lo da tu docente)"></p>
+<button class="btn" id="go">Comenzar prueba</button> <button class="btn" id="tbtn">Panel docente</button><p id="msg" style="color:var(--ko)"></p><div id="lg" style="display:none"><p class="mu">Acceso del docente</p><p><input type="text" id="lu" placeholder="Usuario"></p><p style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><input type="password" id="lp" placeholder="Contraseña"><button type="button" class="btn" id="tp" aria-label="Mostrar contraseña">👁 Ver</button></p><button class="btn" id="lb">Entrar</button></div>
+</section>
+<div id="exam"></div>
+<section class="card" id="res" style="display:none"></section>
+<section class="card" id="panel" style="display:none"></section>
+<footer class="cr"><span class="mu">Elaborado por</span><b>Alejandro Ciro</b><b>Juan Parra</b><b>Ana Vega</b></footer>
+</main>
+<script>
+const L="ABCDEFGH";
+const ESC=[1.0,1.1,1.2,1.3,1.4,1.4,1.5,1.6,1.7,1.8,1.9,2.0,2.1,2.2,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,3.0,3.0,3.1,3.2,3.3,3.4,3.5,3.6,3.7,3.8,3.8,3.9,4.0,4.1,4.2,4.3,4.4,4.5,4.6,4.6,4.7,4.8,4.9,5.0];
+const notaDe=(ok,tot)=>tot===45?ESC[ok]:+(1+ok/tot*4).toFixed(1);
+const CL=["#3b5bdb","#0ca678","#f59f00","#d6336c","#7048e8","#1098ad","#f76707"];const HASH="628d49784a92476f51880d9bff1483b76e22092740fec973015a7a82ddbd735d";
+const P0=[
+{t:"PART 1 – Vocabulary",c:"Competencia lexical · Preguntas 1–5",i:"Read the descriptions. Choose the correct word (A–H) for each one.",
+w:["jacket","museum","necklace","Spanish","snowy","vegetables","swimming","embarrassed"],
+q:[["You wear this around your neck. It is a kind of jewelry.",0,"C"],["You wear this over your shirt when the weather is cold.",0,"A"],["This is the weather when white flakes fall from the sky and it is very cold.",0,"E"],["Carrots, lettuce and broccoli are examples of these healthy foods.",0,"F"],["You feel this way when you do something silly in front of many people.",0,"H"]]},
+{t:"PART 2 – Signs",c:"Competencia pragmática · Preguntas 6–10",i:"Where can you see these signs? Choose A, B or C.",q:[
+["“Warning! Strong waves and heavy wind today. No swimming. Stay out of the water.”",["In a shopping mall","At a beach","In a classroom"],"B"],
+["“Sale! Jeans and jackets 30% off. Fitting rooms are on the second floor.”",["At a gas station","At a hospital","At a clothing store"],"C"],
+["“Members only. Please wipe the machines after you use them.”",["At a gym","At a bakery","At a post office"],"A"],
+["“Boat tours leave every hour. You can buy tickets here and ask for a free city map.”",["At a supermarket","At a tourist information office","At a hospital"],"B"],
+["“Fresh fruit and vegetables! Oranges: $2 a kilo. Buy two kilos and get one free.”",["At a fruit and vegetable market","At a cinema","At an airport"],"A"]]},
+{t:"PART 3 – Conversations",c:"Competencia comunicativa · Preguntas 11–15",i:"Complete each conversation. Choose A, B or C.",q:[
+["A: What are you doing right now?  B: ______",["I watch TV every Sunday.","I’m watching a soccer game.","I watched a movie last night."],"B"],
+["A: I got the job at the new hospital!  B: ______",["That’s too bad. I’m sorry.","Really? That’s a long story.","Good for you! When do you start?"],"C"],
+["A: Excuse me, how much are those black boots?  B: ______",["It’s $85.","They’re $85.","They’re very nice."],"B"],
+["A: Can you speak any other languages?  B: ______",["Yes, I speak very well in my house.","No, I’m not speak languages.","Yes, I can speak Portuguese and some French."],"C"],
+["A: Would you like some more rice?  B: ______",["No, thanks. I’m full.","Yes, I like rice yesterday.","No, I’m not rice."],"A"]]},
+{t:"PART 4 – Grammar in context",c:"Competencia gramatical · Preguntas 16–23",i:"Read the text and choose the correct word for each space (A, B or C).",
+x:"<div class='ill'><svg viewBox='0 0 400 150' role='img' aria-label='A shopping mall on a rainy day'><rect width='400' height='150' fill='#adb5bd'/><g fill='#868e96'><ellipse cx='80' cy='28' rx='50' ry='16'/><ellipse cx='150' cy='22' rx='42' ry='14'/><ellipse cx='300' cy='30' rx='55' ry='16'/></g><path d='M60 50l-6 14M90 55l-6 14M130 48l-6 14M170 54l-6 14M260 50l-6 14M300 56l-6 14M340 48l-6 14' stroke='#4dabf7' stroke-width='2'/><rect x='110' y='70' width='180' height='60' fill='#f1f3f5'/><rect x='110' y='62' width='180' height='12' fill='#e03131'/><rect x='185' y='90' width='30' height='40' fill='#74c0fc'/><rect x='125' y='84' width='45' height='26' fill='#ffe066'/><rect x='230' y='84' width='45' height='26' fill='#ffe066'/><rect y='130' width='400' height='20' fill='#495057'/><path d='M40 118a20 20 0 0140 0z' fill='#f03e3e'/><path d='M60 118v18' stroke='#212529' stroke-width='3'/></svg></div><h4>A Rainy Saturday at the Mall</h4><p>Hi! I’m Diana. It’s Saturday afternoon and it’s raining, so my sister and I (16) ______ at the mall. We (17) ______ for a birthday present for our cousin. Last Saturday, we (18) ______ to the river, and the weather (19) ______ beautiful. Today my sister (20) ______ buy a warm jacket because she doesn’t have one. She (21) ______ speak French, but she can speak English and Spanish, so she is asking the salesperson about prices. (22) ______ dollars do we have? Only $50! (23) ______ shoes over there are on sale, so maybe we can buy a pair.</p>",
+q:[["Space (16)",["is","am","are"],"C"],["Space (17)",["are looking","look","looked"],"A"],["Space (18)",["go","went","going"],"B"],["Space (19)",["were","is","was"],"C"],["Space (20)",["wants to","want to","wanting to"],"A"],["Space (21)",["doesn’t can","can’t","not can"],"B"],["Space (22)",["How many","How much","How long"],"A"],["Space (23)",["This","These","Those"],"C"]]},
+{t:"PART 5 – Literal reading",c:"Competencia lectora literal · Preguntas 24–30",i:"Read the text. Then answer the questions (A, B or C).",
+x:"<div class='ill'><svg viewBox='0 0 400 150' role='img' aria-label='A tropical beach with a palm tree and green mountains'><rect width='400' height='150' fill='#d0ebff'/><circle cx='60' cy='32' r='18' fill='#ffd43b'/><path d='M0 90l70-40 60 30 70-45 90 55 110-40v90H0z' fill='#2f9e44'/><rect y='96' width='400' height='26' fill='#339af0'/><rect y='120' width='400' height='30' fill='#f1d9a0'/><path d='M330 128v-52' stroke='#8d6e63' stroke-width='6'/><path d='M330 76q-30-14-42 6q22-6 42-6zM330 76q30-14 42 6q-22-6-42-6zM330 76q-14-26-34-26q20 6 34 26zM330 76q14-26 34-26q-20 6-34 26z' fill='#2b8a3e'/><path d='M120 134l14-18l14 18z' fill='#e03131'/></svg></div><h4>Camila’s Vacation in Santa Marta</h4><p>Last July, Camila and her brother Andrés spent a week in Santa Marta. They left Montería on Saturday morning and arrived in the afternoon. The weather was hot and sunny on most days, so they went to the beach early every morning. On Monday, they visited Tayrona Park, where visitors can see monkeys and walk through the jungle. Camila was a little scared at first because the path was narrow, but the views were wonderful.</p><p>The food was delicious. For lunch, they ate fresh fish, rice with coconut and fried plantains. Andrés didn’t like the fish, so he ordered chicken. They didn’t buy many souvenirs, but Camila bought a silver bracelet for her mother for 35,000 pesos. On Thursday it rained all day, so they stayed at the hotel and played cards. They came back home by bus on Sunday. Camila says she wants to learn to dive next time.</p>",
+q:[["What was the weather like on most days?",["Cold and windy.","Cloudy and cool.","Hot and sunny."],"C"],
+["What can visitors see in Tayrona Park?",["Penguins and ice.","Monkeys and jungle paths.","Museums and malls."],"B"],
+["Why was Camila scared at first?",["The path was narrow.","The weather was bad.","The monkeys were big."],"A"],
+["What did Andrés order for lunch?",["Fish with rice.","Chicken.","Only fried plantains."],"B"],
+["What did Camila buy for her mother?",["A sun hat.","A pair of sandals.","A silver bracelet."],"C"],
+["What did they do on Thursday?",["They stayed at the hotel and played cards.","They went to the beach early.","They visited Tayrona Park."],"A"],
+["What does Camila want to do next time?",["Visit Cartagena.","Buy more souvenirs.","Learn to dive."],"C"]]},
+{t:"PART 6 – Inferential reading",c:"Competencia lectora inferencial · Preguntas 31–35",i:"Read the text. Then answer the questions (A, B, C or D).",
+x:"<div class='ill'><svg viewBox='0 0 400 150' role='img' aria-label='A restaurant table with a plate of fish and vegetables'><rect width='400' height='150' fill='#fff4e6'/><rect y='100' width='400' height='50' fill='#a1887f'/><ellipse cx='200' cy='100' rx='90' ry='22' fill='#fff'/><ellipse cx='200' cy='98' rx='62' ry='14' fill='#f1f3f5'/><ellipse cx='185' cy='96' rx='26' ry='8' fill='#ffa94d'/><g fill='#51cf66'><circle cx='222' cy='94' r='6'/><circle cx='234' cy='99' r='6'/><circle cx='214' cy='102' r='5'/></g><rect x='300' y='72' width='22' height='36' rx='3' fill='#ffc078'/><rect x='78' y='88' width='4' height='28' fill='#868e96'/></svg></div><h4>A Restaurant Worth the Wait</h4><p>Last Saturday, my family and I tried a new restaurant called La Palma. We arrived at seven, but there was a long line, and we waited for forty minutes. My little brother was hungry and upset, so I was worried. Fortunately, the waiter brought us some free bread and fruit juice while we waited, and he apologized for the delay.</p><p>The menu had many choices. I ordered grilled fish with vegetables, and my parents had the chicken soup. Nobody wanted dessert, but when the waiter brought a small chocolate cake “from the chef,” we all ate it in two minutes! The prices weren’t cheap, but the portions were big, and we took some food home.</p><p>I don’t usually write reviews, but this place is special. The food is good, and the people really care about their customers. If you go, my advice is to make a reservation, or you will wait a long time like we did.</p>",
+q:[["Why was the writer worried at the beginning?",["Because the food was too expensive.","Because the writer’s little brother was hungry and upset.","Because the waiter was rude.","Because the family forgot the reservation."],"B"],
+["What can we infer about the waiter?",["He was careless and ignored the customers.","He wanted the customers to leave quickly.","He cared about the customers’ satisfaction.","He was the owner of the restaurant."],"C"],
+["Why does the writer say “we all ate it in two minutes”?",["To show that the family was in a hurry.","To show that the family really liked the cake.","To complain about the size of the cake.","To say that the cake was cold."],"B"],
+["What can we infer about the writer’s opinion of the restaurant?",["It is bad and not worth a visit.","It is cheap, but the food is poor.","It is a good place, although you may have to wait.","It is only good for children."],"C"],
+["What is the main purpose of the text?",["To explain how to cook fish.","To complain about long lines.","To advertise a new menu.","To recommend a restaurant and give a tip to future customers."],"D"]]},
+{t:"PART 7 – Grammar and vocabulary in context",c:"Competencias gramatical y lexical · Preguntas 36–45",i:"Read the text and choose the correct word for each space (A, B, C or D).",
+x:"<div class='ill'><svg viewBox='0 0 400 150' role='img' aria-label='A young man running in a park with trees and fruit on the grass'><rect width='400' height='150' fill='#e7f5ff'/><circle cx='340' cy='30' r='16' fill='#ffd43b'/><rect y='110' width='400' height='40' fill='#69db7c'/><path d='M0 125q200-30 400 0v25H0z' fill='#8ce99a'/><g fill='#2f9e44'><circle cx='50' cy='70' r='22'/><circle cx='90' cy='78' r='18'/></g><rect x='46' y='88' width='8' height='30' fill='#8d6e63'/><rect x='86' y='92' width='8' height='26' fill='#8d6e63'/><circle cx='220' cy='62' r='9' fill='#ffd8a8'/><path d='M220 72l-4 22l-18 14M216 94l16 14M218 78l-18 8M220 78l18-4' stroke='#1c7ed6' stroke-width='6' fill='none' stroke-linecap='round'/><circle cx='300' cy='122' r='7' fill='#e03131'/><circle cx='316' cy='122' r='7' fill='#f59f00'/></svg></div><h4>Mateo’s New Habits</h4><p>Many young people today (36) ______ more about their health than before. Look at Mateo. He is a university student, and right now he (37) ______ soccer at the park with his friends. Mateo doesn’t eat (38) ______ fast food. He says, “I (39) ______ eat vegetables every day if I want to stay strong.”</p><p>Last year, Mateo (40) ______ very tired and sick, so he went to the doctor. The doctor asked, “(41) ______ water do you drink every day?” “Only a little,” he answered. “Drink more water, and (42) ______ some exercise three times a week!” the doctor told him.</p><p>After that visit, Mateo (43) ______ a lot of fruit and vegetables. He never puts (44) ______ sugar in his coffee. Now he is happier, and he can (45) ______ running for five kilometers without stopping!</p>",
+q:[["Space (36)",["care","cares","are cared","cared"],"A"],["Space (37)",["plays","is playing","play","played"],"B"],["Space (38)",["much","many","few","a few"],"A"],["Space (39)",["has to","have to","am having to","must to"],"B"],["Space (40)",["were","is","was","been"],"C"],["Space (41)",["How much","How many","How long","How often"],"A"],["Space (42)",["does","do","doing","you do"],"B"],["Space (43)",["eat","eaten","eats","ate"],"D"],["Space (44)",["some","any","a","many"],"B"],["Space (45)",["play","do","go","make"],"C"]]}
+];
+P0[1].k="s";P0[2].k="c";let P=JSON.parse(JSON.stringify(P0)),VER=0;
+const $=id=>document.getElementById(id);
+let n=0,total=0,left=3600,tm=null,done=false;
+const key=[];
+function signImg(t){const w=[];let c="";t.split(" ").forEach(x=>{if((c+" "+x).trim().length>29){w.push(c);c=x}else c=(c+" "+x).trim()});if(c)w.push(c);
+ const h=w.length*25+46,tx=w.map((l,i)=>`<tspan x="180" dy="${i?25:0}">${esc(l)}</tspan>`).join("");
+ return `<div class="ill"><svg viewBox="0 0 360 ${h+34}" role="img" aria-label="${esc(t)}"><path d="M100 0v34M260 0v34" stroke="#6b4f3a" stroke-width="5"/><rect x="6" y="32" width="348" height="${h}" rx="14" fill="#fff3bf" stroke="#495057" stroke-width="5"/><g fill="#495057"><circle cx="24" cy="50" r="4"/><circle cx="336" cy="50" r="4"/><circle cx="24" cy="${h+14}" r="4"/><circle cx="336" cy="${h+14}" r="4"/></g><text x="180" y="${32+36}" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937" font-family="system-ui,Arial,sans-serif">${tx}</text></svg></div>`}
+function build(){
+ let h="",cur=1;n=0;key.length=0;
+ P.forEach((p,pi)=>{
+  p.q.forEach((q,qi)=>{
+   n++;key.push(q[2]);const o=q[1]||p.w;
+   h+=`<section class="card qs" id="s${n}" data-f="${qi?0:1}" style="display:none;border-top:4px solid ${CL[pi%7]}"><div class="ph"><h2>${p.t}</h2><div class="mu">${p.c}</div><p>${p.i}</p>`;
+   if(p.w)h+=`<div class="txt"><b>${p.w.map((w,k)=>L[k]+". "+w).join(" &nbsp; ")}</b></div>`;
+   if(p.x)h+=`<div class="txt">${p.x}</div>`;
+   h+=`</div><div class="q" id="q${n}"><p>${n}.${p.k?"":" "+q[0]}</p>`+(p.k==="s"?signImg(q[0]):p.k==="c"?q[0].split("  B: ").map((t,k)=>`<div class="bb${k?" r":""}">${k?"B: "+t:t}</div>`).join(""):"")+o.map((t,k)=>`<label class="o" data-k="${L[k]}"><input type="radio" name="r${n}" value="${L[k]}"><span class="t">${t}</span></label>`).join("")+`</div></section>`;
+  });
+ });
+ total=n;$("cnt").textContent="0/"+total;
+ h+=`<section class="card" id="nv"><p class="mu" id="pos"></p><div class="g" id="gr">${Array.from({length:n},(_,i)=>`<button data-g="${i+1}">${i+1}</button>`).join("")}</div><p><button class="btn" id="pv">← Anterior</button> <button class="btn" id="nx">Siguiente →</button> <button class="btn" id="fin" style="background:#1b7f3b;margin-left:8px">Finalizar prueba</button></p></section>`;
+ $("exam").innerHTML=h;
+ const paint=()=>document.querySelectorAll("#gr button").forEach((b,k)=>{const q=k+1;b.className=(document.querySelector(`input[name=r${q}]:checked`)?"an ":"")+(q===cur?"cu":"")});
+ const show=i=>{cur=Math.max(1,Math.min(total,i));document.querySelectorAll(".qs").forEach((e,k)=>e.style.display=k+1===cur?"block":"none");$("pos").textContent="Pregunta "+cur+" de "+total;paint();window.scrollTo(0,0)};
+ $("exam").addEventListener("change",()=>{const a=answered();$("cnt").textContent=a+"/"+total;$("pg").style.width=(a/total*100)+"%";paint()});
+ $("gr").onclick=e=>{const b=e.target.closest("[data-g]");if(b)show(+b.dataset.g)};
+ $("pv").onclick=()=>show(cur-1);$("nx").onclick=()=>show(cur+1);
+ $("fin").onclick=()=>{const m=total-answered();if(m>0&&!confirm("Te faltan "+m+" preguntas sin responder. ¿Finalizar de todos modos?"))return;finish()};
+ show(1);
+}
+function answered(){let a=0;for(let i=1;i<=total;i++)if(document.querySelector(`input[name=r${i}]:checked`))a++;return a}
+function fmt(s){return String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0")}
+async function start(){await ready;await loadBank();
+ const nm=$("nm").value.trim(),cd=$("cd").value.trim();
+ if(!nm||!cd){$("msg").textContent="Escribe tu nombre completo y tu código.";return}
+ if(!owner){let okc=false;const cdn=cd.toUpperCase().replace(/\s/g,"");
+  try{okc=cdn===await codeFor(nm)}catch(e){}
+  if(!okc&&db){try{const sn=await db.doc("roster/"+await sha(cdn)).get();okc=sn.exists&&sn.data().nh===await sha(nrm(nm))}catch(e){}}
+  if(!okc){$("msg").textContent="Nombre o código incorrecto.";return}}
+ if(!owner){const cdn2=cd.toUpperCase().replace(/\s/g,""),lk="sp_att_"+cdn2,MSG="Ya presentaste esta prueba. Solo se permite un intento.";
+  let used=false;try{used=!!localStorage.getItem(lk)}catch(e){}
+  if(!used&&db&&uid){
+   try{if((await db.doc("results/"+uid).get()).exists)used=true}catch(e){$("msg").textContent="No se pudo verificar tu intento. Revisa tu conexión e inténtalo de nuevo.";return}
+   if(!used){try{if((await db.doc("attempts/"+uid).get()).exists)used=true}catch(e){}}
+   if(!used){try{if((await db.doc("attempts/"+await sha(cdn2)).get()).exists)used=true}catch(e){}}}
+  if(used){$("msg").textContent=MSG;return}
+  try{localStorage.setItem(lk,String(Date.now()))}catch(e){}
+  if(db&&uid){const a={code:cdn2,ts:Date.now()};try{await db.doc("attempts/"+uid).set(a);await db.doc("attempts/"+await sha(cdn2)).set(a)}catch(e){}}
+  window.addEventListener("beforeunload",ev=>{if(!done){ev.preventDefault();ev.returnValue=""}})}
+ $("intro").style.display="none";$("bar").style.display="flex";build();window.scrollTo(0,0);
+ tm=setInterval(()=>{left--;$("clock").textContent=fmt(left);if(left<=300)$("clock").style.color="var(--ko)";if(left<=0){finish()}},1000);
+}
+function finish(){
+ if(done)return;done=true;clearInterval(tm);let ok=0;const ans=[];
+ for(let i=1;i<=total;i++){
+  const sel=document.querySelector(`input[name=r${i}]:checked`),box=$("q"+i);
+  box.querySelectorAll("input").forEach(x=>x.disabled=true);
+  box.querySelectorAll(".o").forEach(l=>{if(l.dataset.k===key[i-1])l.classList.add("ok");else if(sel&&l.dataset.k===sel.value)l.classList.add("ko")});
+  ans.push(sel?sel.value:"-");if(sel&&sel.value===key[i-1])ok++;
+ }
+ const notaN=notaDe(ok,total),nota=notaN.toFixed(1).replace(".",",");
+ const used=3600-Math.max(left,0);
+ $("fin").disabled=true;$("nv").style.display="none";document.querySelectorAll(".qs").forEach(e=>{e.style.display="block";if(e.dataset.f!=="1"){const x=e.querySelector(".ph");if(x)x.style.display="none"}});$("bar").style.display="none";
+ const r=$("res");r.style.display="block";
+ r.innerHTML=`<h1>Resultado</h1><p><b>${$("nm").value.trim().replace(/</g,"&lt;")}</b></p><div class="score">${nota} / 5,0</div><p>Respuestas correctas: <b>${ok}</b> de ${total}. Tiempo usado: ${fmt(used)}${left<=0?" (se agotó el tiempo)":""}.</p><p class="mu">Nota = 1 + (aciertos ÷ ${total} × 4), redondeada a un decimal (0 aciertos = 1,0; ${total} aciertos = 5,0). Abajo puedes revisar cada pregunta: en verde la respuesta correcta y en rojo la tuya si fue incorrecta.</p><p class="mu"><b>Solo se permite un intento por estudiante.</b> Ya puedes cerrar esta página.</p>`;
+ r.insertAdjacentHTML("beforeend",'<div id="sv" class="mu">Enviando resultado…</div>');r.scrollIntoView();
+ saveRec({name:$("nm").value.trim(),code:$("cd").value.toUpperCase().replace(/\s/g,""),ok,nota:notaN,secs:used,ts:Date.now(),ans:ans.join(""),ver:VER,tot:total});
+}
+const mkF=B=>{const f=[],r=[];B.forEach(p=>{const t=f.length;p.q.forEach(q=>f.push({q:q[0],o:q[1]||p.w,a:q[2]}));r.push([t,f.length])});return{f,r}};
+const TIPS=["Repasa el vocabulario de clima, ropa y accesorios, deportes, países e idiomas, y comida con tarjetas de palabras y descripciones.","Practica leer carteles y avisos de playas, tiendas, gimnasios, oficinas de turismo y mercados, e identifica en qué lugar aparecen.","Practica respuestas naturales: reaccionar a noticias (That’s great! / That’s too bad), preguntar precios (How much…?), hablar de idiomas (can) y ofrecer comida (Would you like…?).","Refuerza el presente continuo, el pasado simple (regular e irregular), el pasado de be, can / can’t, have to / want to, How much / How many y this / these / that / those.","Lee textos cortos sobre viajes y vacaciones y subraya los datos explícitos (quién, cuándo, dónde, qué) antes de responder.","Practica inferir: la opinión del autor, las causas y el propósito del texto (reseñas y recomendaciones), no solo los datos literales.","Repasa gramática y vocabulario en contexto: presente continuo, have to, much / many, some / any, imperativos, pasado de be y expresiones con go / do / play."];
+let db=null,uid=null,owner=false,rows=[];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nrm=t=>t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\s+/g," ").trim();
+const SECRET="Saber-Touchstone-7x9Q";
+async function codeFor(n){const h=await sha(SECRET+":"+nrm(n)),A="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let c="";for(let i=0;i<6;i++)c+=A[parseInt(h.substr(i*2,2),16)%A.length];return c}
+async function sha(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("")}
+let sts=[];
+const enc=r=>btoa(unescape(encodeURIComponent(JSON.stringify(r))));
+const ready=(async()=>{if(!window.claude)return;let u=null;try{u=await claude.use("user");if(u)owner=!!(await u.isOwner())}catch(e){}try{db=await claude.use("db")}catch(e){}try{if(u)uid=await u.id()}catch(e){}})();
+const PEND="sp_pending";
+const pendGet=()=>{try{return JSON.parse(localStorage.getItem(PEND)||"[]")}catch(e){return[]}};
+const pendSet=a=>{try{localStorage.setItem(PEND,JSON.stringify(a))}catch(e){}};
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+async function trySave(r){if(!db||!uid)throw 0;await db.doc("results/"+uid).set(r)}
+async function saveRec(r){const s=$("sv");
+ pendSet(pendGet().filter(x=>x.code!==r.code).concat([r]));
+ s.textContent="Guardando tu resultado…";
+ for(let i=0;i<4;i++){
+  try{await trySave(r);pendSet(pendGet().filter(x=>x.code!==r.code));s.innerHTML="✅ <b>Tu resultado se guardó automáticamente</b> y ya lo puede ver el docente.";return}
+  catch(e){if(i<3){s.textContent="Guardando… reintento "+(i+1)+" de 3";await wait(1500*(i+1))}}}
+ s.innerHTML='⚠️ No se pudo guardar todavía. <b>No cierres esta página</b>: se reintentará solo cuando haya conexión. Si no se guarda, copia este código y envíalo a tu docente:<br><textarea readonly rows="3" style="width:100%" onclick="this.select()">'+enc(r)+'</textarea>';
+ const iv=setInterval(async()=>{try{await ready;await trySave(r);clearInterval(iv);pendSet(pendGet().filter(x=>x.code!==r.code));s.innerHTML="✅ <b>Tu resultado se guardó automáticamente</b> y ya lo puede ver el docente."}catch(e){}},8000)}
+async function flushPending(){await ready;for(const r of pendGet()){try{await trySave(r);pendSet(pendGet().filter(x=>x.code!==r.code))}catch(e){}}}
+const LS=(k,v)=>{try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"[]");localStorage.setItem(k,JSON.stringify(v))}catch(e){return []}};
+function mk(){const A="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let c="";for(const x of crypto.getRandomValues(new Uint8Array(6)))c+=A[x%A.length];return c}
+async function addNames(names){
+ for(const name of names){const c=await codeFor(name);if(sts.some(x=>x.code===c))continue;const st={name,code:c,ts:Date.now()};
+  if(db){try{await db.doc("students/"+c).set(st);await db.doc("roster/"+await sha(c)).set({nh:await sha(nrm(name))})}catch(e){alert("No se pudo guardar. Abre el enlace con la cuenta propietaria de la prueba.");return}}
+  else{sts.push(st);LS("sp_students",sts)}}
+ if(!db)drawT()}
+async function delSt(c){if(!confirm("¿Eliminar a este estudiante?"))return;
+ if(db){try{await db.doc("students/"+c).delete();await db.doc("roster/"+await sha(c)).delete()}catch(e){alert("No se pudo eliminar.")}}
+ else{sts=sts.filter(x=>x.code!==c);LS("sp_students",sts);drawT()}}
+function copyTxt(t){const fb=()=>{try{const a=document.createElement("textarea");a.value=t;a.style.cssText="position:fixed;opacity:0";document.body.appendChild(a);a.select();const ok=document.execCommand("copy");a.remove();return ok}catch(e){return false}};
+ if(navigator.clipboard&&navigator.clipboard.writeText){return navigator.clipboard.writeText(t).then(()=>true).catch(()=>fb())}return Promise.resolve(fb())}
+function flash(b,t0){const o=t0||b.textContent;b.textContent="✓ Copiado";b.classList.add("ok");setTimeout(()=>{b.textContent=o;b.classList.remove("ok")},1500)}
+async function openPanel(){
+ $("intro").style.display="none";const pn=$("panel");pn.style.display="block";
+ pn.innerHTML='<div class="hero pn"><h1>Panel docente</h1><p id="pnote"></p><p id="pst">Cargando…</p></div><h4>Listado de estudiantes</h4><div class="wide" id="pt"></div><h4>Agregar estudiante</h4><p><input type="text" id="ns" placeholder="Nombre completo"> <button class="btn" id="add">Agregar</button></p><details><summary>Agregar varios a la vez</summary><p class="mu">Un nombre completo por línea.</p><textarea id="nl" rows="4" style="width:100%"></textarea><p><button class="btn" id="gen">Agregar lista</button></p></details><p><button class="btn" id="cp">Copiar listado</button> <button class="btn" onclick="location.reload()">Salir</button></p><h4>Banco de preguntas (<span id="bn"></span>)</h4><p class="mu">Agrega, edita o elimina preguntas. Los cambios se aplican a los estudiantes que inicien la prueba después de guardar; los resultados anteriores conservan la versión con la que se presentaron.</p><div id="bk"></div><div id="ed"></div><div id="pd"></div><details><summary>Importar resultado por código</summary><textarea id="imp" rows="3" style="width:100%"></textarea><p><button class="btn" id="impb">Importar</button></p></details>';
+ $("add").onclick=()=>{const v=$("ns").value.trim();if(v){addNames([v]);$("ns").value=""}};
+ $("ns").onkeydown=e=>{if(e.key==="Enter")$("add").click()};
+ $("gen").onclick=()=>{const n=$("nl").value.split("\n").map(x=>x.trim()).filter(Boolean);if(n.length){addNames(n);$("nl").value=""}};
+ $("cp").onclick=async e=>{const b=e.currentTarget;if(await copyTxt(sts.map(x=>x.name+"\t"+x.code).join("\n")))flash(b,"Copiar listado")};
+ $("impb").onclick=importRec;await loadBank();drawBank();
+ if(!db){sts=LS("sp_students");for(const x of sts)x.code=await codeFor(x.name);LS("sp_students",sts);rows=LS("sp_results");drawT();return}
+ const t=setTimeout(()=>{$("pst").textContent="Todavía no se puede conectar con los resultados."},10000);
+ db.collection("results").onSnapshot(sn=>{clearTimeout(t);rows=sn.docs.map(d=>d.data());drawT()},e=>{clearTimeout(t);$("pst").textContent="Error al leer resultados: "+(e&&e.code||"")});
+ db.collection("students").onSnapshot(sn=>{sts=sn.docs.map(d=>d.data());drawT()},()=>{});
+}
+function drawT(){
+ const m=new Map(rows.map(r=>[String(r.code).toUpperCase(),r]));
+ const list=sts.slice().sort((a,b)=>String(a.name).localeCompare(b.name));
+ const used=new Set(list.map(x=>x.code)),extra=rows.filter(r=>!used.has(String(r.code).toUpperCase()));
+ const avg=rows.length?(rows.reduce((q,r)=>q+r.nota,0)/rows.length).toFixed(1).replace(".",","):"–";
+ $("pnote").textContent=db?"":"Modo local: el listado se guarda solo en este navegador. Los estudiantes validan su código sin conexión; sus resultados te llegan con el código de resultado que te envíen. ";$("pst").textContent=list.length+" estudiante(s) · "+rows.length+" con resultado · promedio "+avg+" · toca una fila con nota para ver el detalle";
+ const row=(x,r,i)=>`<div class="sr${r?" rw":""}" ${r?`data-k="${esc(String(r.code).toUpperCase())}"`:""}><div class="sn"><small>#${i}</small>${esc(x.name)}</div><div class="sc"><span class="cd">${esc(x.code||"")}</span>${x.code?`<button class="cb" data-cp="${esc(x.code)}">Copiar código</button>`:""}</div>${x.ts?`<button class="xb" data-del="${esc(x.code)}" title="Eliminar estudiante" aria-label="Eliminar estudiante">✕</button>`:""}<div class="sm">${r?`Nota <b>${String(r.nota).replace(".",",")}</b> · ${r.ok}/${r.tot||45} aciertos · ${fmt(r.secs||0)}`:"Pendiente"}</div></div>`;
+ $("pt").innerHTML=(list.length+extra.length?'<div class="sl">'+list.map((x,i)=>row(x,m.get(x.code),i+1)).join("")+extra.map((r,i)=>row(r,r,list.length+i+1)).join("")+"</div>":'<p class="emp">Aún no hay estudiantes. Agrégalos más abajo.</p>');
+ $("pt").onclick=async e=>{const c=e.target.closest("[data-cp]");if(c){if(await copyTxt(c.dataset.cp))flash(c,"Copiar código");return}const d=e.target.closest("[data-del]");if(d){delSt(d.dataset.del);return}const t=e.target.closest(".sr[data-k]");if(t)detail(m.get(t.dataset.k))}}
+async function detail(r){const B=await bankFor(r.ver||0),{f,r:rg}=mkF(B),a=r.ans||"",weak=[];
+ let h=`<div class="card"><h2>${esc(r.name)} · ${esc(r.code)} · ${String(r.nota).replace(".",",")}</h2>${(r.ver||0)!==VER?'<p class="mu">Presentó una versión anterior del banco de preguntas.</p>':""}<table><tr><th>Parte</th><th>Aciertos</th><th>%</th></tr>`;
+ rg.forEach(([s,e],pi)=>{if(e<=s)return;let c=0;for(let k=s;k<e;k++)if(a[k]===f[k].a)c++;const pc=Math.round(c/(e-s)*100);if(pc<70)weak.push(pi);h+=`<tr><td>${esc(B[pi].t.split(" – ")[1]||B[pi].t)}</td><td>${c}/${e-s}</td><td>${pc}%</td></tr>`});
+ h+="</table><h4>Preguntas falladas</h4>";let w=0;
+ f.forEach((x,k)=>{if(a[k]!==x.a){w++;const g=a[k]&&a[k]!=="-"?L.indexOf(a[k]):-1;h+=`<p><b>${k+1}.</b> ${esc(x.q)}<br>Respondió: ${g>=0&&x.o[g]!==undefined?a[k]+". "+esc(x.o[g]):"sin responder"} · <b style="color:var(--ok)">Correcta: ${x.a}. ${esc(x.o[L.indexOf(x.a)]||"")}</b></p>`}});
+ if(!w)h+="<p>Ninguna 🎉</p>";
+ h+="<h4>Mejoras sugeridas</h4>"+(weak.length?"<ul>"+weak.map(p=>`<li><b>${esc(B[p].t.split(" – ")[1]||B[p].t)}:</b> ${esc(B[p].tp||TIPS[p]||"Repasa los temas de esta parte.")}</li>`).join("")+"</ul>":"<p>Buen desempeño en todas las partes. Puede pasar a textos más largos y de nivel B2.</p>")+"</div>";
+ $("pd").innerHTML=h;$("pd").scrollIntoView();}
+async function importRec(){try{const r=JSON.parse(decodeURIComponent(escape(atob($("imp").value.trim()))));if(!r.name||!r.ans)throw 0;
+ if(db)await db.doc("results/imp-"+Date.now()).set(r);else{rows.push(r);LS("sp_results",rows);drawT()}$("imp").value=""}catch(e){alert("Código no válido")}}
+const lsg=k=>{try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}};
+async function loadBank(){let b=null;
+ try{if(db){const x=await db.doc("config/bank").get();if(x.exists)b=x.data()}else b=lsg("sp_bank")}catch(e){}
+ P=JSON.parse(JSON.stringify(P0));VER=0;
+ if(b&&b.json){try{P=JSON.parse(b.json);VER=b.ver|0}catch(e){}}
+ drawIntro()}
+async function bankFor(v){if(!v)return P0;if(v===VER)return P;let b=null;
+ try{if(db){const x=await db.doc("banks/v"+v).get();if(x.exists)b=JSON.parse(x.data().json)}else b=(lsg("sp_bankh")||{})[v]}catch(e){}
+ return b||P}
+async function saveBank(){VER++;const json=JSON.stringify(P);
+ try{if(db){await db.doc("banks/v"+VER).set({json});await db.doc("config/bank").set({ver:VER,json})}
+  else{localStorage.setItem("sp_bank",JSON.stringify({ver:VER,json}));const h=lsg("sp_bankh")||{};h[VER]=P;localStorage.setItem("sp_bankh",JSON.stringify(h))}}
+ catch(e){alert("No se pudo guardar. Abre el enlace con la cuenta propietaria de la prueba.");await loadBank()}
+ drawBank()}
+function drawIntro(){const t=$("it");if(!t)return;let c=0;
+ t.innerHTML="<table><tr><th>Parte</th><th>Competencia</th><th>Preguntas</th></tr>"+P.map((p,i)=>{const s=c+1;c+=p.q.length;return `<tr><td>${i+1}</td><td>${esc(p.c.split(" · ")[0].replace("Competencia ","").replace(/^./,m=>m.toUpperCase()))}</td><td>${p.q.length?s+"–"+c:"—"}</td></tr>`}).join("")+"</table>";$("nq").textContent=c}
+function drawBank(){const b=$("bk");if(!b)return;let c=0;$("bn").textContent=P.reduce((a,p)=>a+p.q.length,0)+" preguntas";
+ b.innerHTML=P.map((p,pi)=>`<div class="card" style="border-top:4px solid ${CL[pi%7]}"><b>${esc(p.t)}</b> <span class="mu">${esc(p.c)}</span><div class="pa"><button data-a="ep" data-p="${pi}">✎ Editar parte</button><button data-a="aq" data-p="${pi}">＋ Pregunta</button><button data-a="dp" data-p="${pi}">✕ Eliminar parte</button></div>`+p.q.map((q,qi)=>{c++;return `<div class="qr"><div class="qa"><button data-a="eq" data-p="${pi}" data-q="${qi}" title="Editar pregunta" aria-label="Editar pregunta ${c}">✎</button><button data-a="dq" data-p="${pi}" data-q="${qi}" title="Eliminar pregunta" aria-label="Eliminar pregunta ${c}">✕</button></div><div class="qt"><b>${c}.</b> ${esc(String(q[0]).slice(0,90))} <span class="mu">(${q[2]})</span></div></div>`}).join("")+"</div>").join("")+'<p><button class="btn" data-a="np">＋ Agregar parte</button></p>';
+ b.onclick=e=>{const x=e.target.closest("[data-a]");if(!x)return;const a=x.dataset.a,pi=+x.dataset.p,qi=+x.dataset.q;
+  if(a==="eq")fq(pi,qi);else if(a==="aq")fq(pi,-1);else if(a==="ep")fp(pi);else if(a==="np")fp(-1);
+  else if(a==="dq"){if(confirm("¿Eliminar la pregunta?")){P[pi].q.splice(qi,1);saveBank()}}
+  else if(a==="dp"){if(confirm("¿Eliminar la parte completa con sus "+P[pi].q.length+" preguntas?")){P.splice(pi,1);saveBank()}}}}
+function fq(pi,qi){const p=P[pi],W=!!p.w,q=qi<0?["",W?0:["","",""],"A"]:p.q[qi],ed=$("ed");
+ ed.innerHTML=`<div class="card"><h4>${qi<0?"Nueva pregunta":"Editar pregunta"} · ${esc(p.t)}</h4><p class="mu">${p.k==="c"?"Conversación: escribe «A: …  B: …» (dos espacios antes de «B: »). ":""}${p.k==="s"?"Cartel: escribe el texto del aviso. ":""}${W?"Las opciones salen del banco de palabras de la parte.":""}</p><p>Enunciado<br><textarea id="fqt" rows="2" style="width:100%"></textarea></p>`+(W?"":`<p>Opciones (una por línea; la primera es A, luego B, C…)<br><textarea id="fqo" rows="5" style="width:100%"></textarea></p>`)+`<p>Respuesta correcta <select id="fqa"></select></p><p><button class="btn" id="fqs">Guardar</button> <button class="btn" id="fqc">Cancelar</button></p></div>`;
+ $("fqt").value=q[0];const opts=()=>W?p.w:$("fqo").value.split("\n").map(x=>x.trim()).filter(Boolean);
+ if(!W)$("fqo").value=q[1].join("\n");
+ const sel=()=>{const s=$("fqa"),v=s.value||q[2];s.innerHTML=Array.from({length:Math.min(opts().length,8)},(_,k)=>`<option>${L[k]}</option>`).join("");s.value=v};
+ sel();if(!W)$("fqo").oninput=sel;
+ $("fqc").onclick=()=>ed.innerHTML="";
+ $("fqs").onclick=()=>{const t=$("fqt").value.trim(),o=opts(),a=$("fqa").value;if(!t||o.length<2||o.length>8||!a){alert("Escribe el enunciado y entre 2 y 8 opciones.");return}
+  const nq=[t,W?0:o,a];if(qi<0)p.q.push(nq);else p.q[qi]=nq;ed.innerHTML="";saveBank()};
+ ed.scrollIntoView()}
+function fp(pi){const n=pi<0,p=n?{t:"PART "+(P.length+1)+" – ",c:"",i:"",q:[]}:P[pi],ed=$("ed");
+ ed.innerHTML=`<div class="card"><h4>${n?"Nueva parte":"Editar parte"}</h4>`+[["Título (ej. PART 8 – Reading)","fpt"],["Competencia · rango (ej. Competencia lectora · Preguntas 46–50)","fpc"],["Instrucciones para el estudiante","fpi"],["Consejo de mejora si el estudiante falla esta parte (opcional)","fpr"]].map(([l,id])=>`<p>${l}<br><input type="text" id="${id}" style="width:100%"></p>`).join("")+`<p>Tipo <select id="fpk"><option value="">Normal</option><option value="s">Cartel / aviso (recuadro amarillo)</option><option value="c">Conversación (A: … B: …)</option></select></p><p>Banco de palabras (opcional, una por línea; las preguntas de la parte usarán estas opciones)<br><textarea id="fpw" rows="3" style="width:100%"></textarea></p><p>Texto de lectura (opcional, admite HTML)<br><textarea id="fpx" rows="6" style="width:100%"></textarea></p><p><button class="btn" id="fps">Guardar</button> <button class="btn" id="fpq">Cancelar</button></p></div>`;
+ $("fpt").value=p.t;$("fpc").value=p.c;$("fpi").value=p.i;$("fpr").value=p.tp||"";$("fpk").value=p.k||"";$("fpw").value=(p.w||[]).join("\n");$("fpx").value=p.x||"";
+ $("fpq").onclick=()=>ed.innerHTML="";
+ $("fps").onclick=()=>{const w=$("fpw").value.split("\n").map(x=>x.trim()).filter(Boolean);
+  if(!$("fpt").value.trim()){alert("Escribe un título.");return}
+  if(!!w.length!==!!p.w&&p.q.length){alert("No se puede agregar o quitar el banco de palabras en una parte que ya tiene preguntas. Elimina las preguntas primero.");return}
+  p.t=$("fpt").value.trim();p.c=$("fpc").value.trim();p.i=$("fpi").value.trim();p.tp=$("fpr").value.trim();p.k=$("fpk").value;
+  w.length?p.w=w:delete p.w;$("fpx").value.trim()?p.x=$("fpx").value:delete p.x;
+  if(n)P.push(p);ed.innerHTML="";saveBank()};
+ ed.scrollIntoView()}
+ready.then(loadBank);ready.then(flushPending);
+$("tbtn").onclick=()=>{$("lg").style.display="block";$("lu").focus()};
+$("tp").onclick=()=>{const p=$("lp"),v=p.type==="password";p.type=v?"text":"password";$("tp").textContent=v?"🙈 Ocultar":"👁 Ver";$("tp").setAttribute("aria-label",v?"Ocultar contraseña":"Mostrar contraseña")};
+$("lb").onclick=async()=>{const h=await sha($("lu").value.trim().toLowerCase()+":"+$("lp").value);if(h===HASH){$("msg").textContent="";openPanel()}else $("msg").textContent="Usuario o contraseña incorrectos."};
+$("go").onclick=start;
+</script>
+</body>
+</html>
